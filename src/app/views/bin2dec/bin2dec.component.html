@@ -1,0 +1,39 @@
+<div class="b2d">
+    <div class="container-b2d">
+        <span>Bin2dec</span>
+        <h2>Binary to Decimal Converter</h2>
+        <div class="campo">
+            <label class="binario">Binário</label>
+            <input matInput placeholder="Binário" type="text" [(ngModel)]="bin" (keyup.enter)="onkeypress($event)">
+        </div>
+        
+        
+        <div class="campo">
+            <label class="decimal">Decimal</label>
+            <input type="text" [value]="dec">
+        </div>
+        
+        <button mat-stroked-button (click)="converter()">Converter</button>
+        
+    </div>
+</div>
+
+<!-- <div class="b2d">
+    <div class="container-b2d">
+        <mat-card>
+            <mat-card-title>Bin2Dec</mat-card-title>
+            <mat-card-subtitle>Binary to Decimal Converter</mat-card-subtitle>
+            <form>
+                <mat-form-field>
+                    <input placeholder="Binario" type="text" [(ngModel)]="bin">
+                </mat-form-field>
+                <mat-form-field>
+                    <input placeholder="Decimal" type="text" [value]="dec">
+                </mat-form-field>
+
+            </form>
+            <button mat-raised-button color="primary" (click)="converter()">Converter</button>
+
+        </mat-card>
+    </div>
+</div> -->

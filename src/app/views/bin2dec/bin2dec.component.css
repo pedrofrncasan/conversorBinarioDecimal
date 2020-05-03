@@ -1,0 +1,54 @@
+.b2d {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    font-size: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 25px;
+    align-items: center;
+
+}
+.binario {
+    margin-bottom: 10px;
+}
+.decimal {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+span {
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+}
+button {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container-b2d {
+    width: 400px;
+    height: 350px;
+   
+    position: absolute;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
