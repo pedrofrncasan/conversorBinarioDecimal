@@ -8,3 +8,8 @@ After clone the project, enter at conversor/src and run `npm install`, then `ng 
 
 ![image](https://user-images.githubusercontent.com/50559507/177047658-cd598d60-0d50-4fc7-9277-f64b327ff081.png)
 
+## ToDo list
+- Convert Decimal to Binary;
+
+- Check another settings like convert words to hexadecimal;
+
